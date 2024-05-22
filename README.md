@@ -9,3 +9,5 @@
     - JS
     - API
 ```
+
+[weather App site ](https://kosar-ahd.github.io/weatherApp/)
