@@ -1,6 +1,6 @@
-## document
+## Document
 
-### This project about `weather` in your city or you countrie.
+### This project about `weather` in your city or your countrie.
 
 ```
 - codint with :
