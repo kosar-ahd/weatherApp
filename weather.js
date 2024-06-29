@@ -1,6 +1,7 @@
 const $ = document
 
 const input = $.querySelector('input')
+const submitBtn = $.querySelector('button')
 let now = new Date
 
 const city_country = $.querySelector('.city_country')
@@ -38,3 +39,16 @@ input.addEventListener('keydown' , e => {
     
 })
 
+if(window.screen.width < 650){
+    submitBtn.classList.remove('not-active')
+}
+
+submitBtn.addEventListener('click', e => {
+    console.log(e);
+
+    fetchingData()
+    input.value = ''
+
+})
+
+console.log(window.screen.width);
