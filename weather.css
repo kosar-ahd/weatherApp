@@ -68,3 +68,12 @@ input:focus{
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4)
     
 }
+
+@media screen  and (max-width : 650px ){
+    .temp{
+        font-size: 50px;       
+    }
+    .air{
+        font-size: 1.5rem;
+    }
+}
